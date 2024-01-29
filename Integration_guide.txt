@@ -1,0 +1,6 @@
+Integration_guide
+-Main authentication logic is contained inside project/auth.py.
+-Sample templates were only used for testing.
+-For all routes which only require login can be added with @login_required decorator. Routes not requiring login need not contain the decorator.
+-Database creation might be an issue ( if at all then run app.app_context: db.create_all() manually.)
+ 
